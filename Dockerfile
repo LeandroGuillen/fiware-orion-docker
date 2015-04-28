@@ -1,4 +1,3 @@
-# This is a comment
 FROM centos:centos6
 MAINTAINER Leandro Guillen <leandro.guillen@imdea.org>
 
@@ -10,7 +9,6 @@ gpgcheck=0\n\
 enabled=1\n" > /etc/yum.repos.d/testbed-fi-ware.repo
 
 # Install Orion
-# RUN yum clean all
 RUN yum -y install contextBroker
 
 EXPOSE 1026
