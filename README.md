@@ -7,6 +7,8 @@ Orion Context Broker is part of [FIWARE](http://www.fiware.org/).
 This repository contains a docker file to build FIWARE Orion Context Broker docker image. If you just want to run it simply do
 
     docker pull leandroguillen/fiware-orion
+    
+... follow the next guidelines.
 
 # Requistes
 
